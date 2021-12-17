@@ -33,7 +33,7 @@
 - [Questions](#questions)
 
 ## <img id="about" src="./themes/clean-dark/menu-categories/about.png" style="height: 40px">
-
+[Video Demonstration](https://drive.google.com/file/d/1IyjeLNzI1cD9YhINE-xx_vJGMZz7XFuz/view?usp=sharing)
 
 This repository is where I ([Rae Alejandrino](https://github.com/raealejandrino/)) develop a back-end database using Sequelize and ORM concepts to implement with any e-commerce front-end. Whether you're looking to sell clothes or local groceries, this application can help organize your database to satisfy the needs of any front-end foundation.
 
@@ -47,10 +47,11 @@ In order to run this program locally you will need to:
 
 1. Clone this repository to receive all the files.
 2. Run `npm install` in the terminal to download all the needed dependencies (makes sure you are in the correct file directory).
-3. Run `source db/schema.sql` in your MySQL command line interface to initialize the database
-4. (OPTIONAL) Run `npm run seed` to initialize seeding scripts to insert test data into the database
-5. Run `npm start` in the terminal to start a live server locally.
-6. Use any preferred application to call API routes defined within JavaScript files in the routes directory.
+3. Create a `.env` file and input the followings keys: `DB_NAME='ecommerce_db' DB_USER='your user' DB_PW='your password'` Where the values for `DB_USER` AND `DB_PW` are your MySQL credentials
+4. Run `source db/schema.sql` in your MySQL command line interface to initialize the database
+5. (OPTIONAL) Run `npm run seed` to initialize seeding scripts to insert test data into the database
+6. Run `npm start` in the terminal to start a live server locally.
+7. Use any preferred application to call API routes defined within JavaScript files in the routes directory.
 
 ## <img id="built_using" src="./themes/clean-dark/menu-categories/built-using.png" style="height: 40px">
 
